@@ -1,20 +1,37 @@
-# General
-name: Minimal-Block
-description: "Minimalistic, friendly, responsive."
-url: http://localhost:4000
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-markdown: redcarpet
+# General Site Settings
+name: devicurious
+description: "MEAN, JavaScript, Node, Angular, Rails, IoT, Arduino, Raspberry Pi."
+url: "" # the base hostname & protocol for your site, add actual host URL when deployed
+
+# using default "kramdown markdown"
+# markdown: redcarpet
+kramdown:
+  input: GFM
+
 highlighter: pygments
 
 paginate: 5
 permalink: /:title
 
 # Social share and comments.
-disqus-id: yourusername
-twitter: yourusername
-github: yourusername
-google: +yourusername
+twitter: cropcommand
+github: thestevenbell
 
-# RSS feed
-rss-feed-limit: 10
-rss-show-full: "no"
+# Site settings
+title: thestevenbell
+email: thestevenbell@gmail.com
+
+description: > # this means to ignore newlines until "baseurl:"
+  Junior full stack web developers blog.  Topics include IoT, JavaScript, MEAN stack, Ruby
+  on Rails from the perspective of a junior developer.
+
+gems: [jekyll-paginate, jekyll-gist]
+
+permalink: /blog/:year/:month/:day/:title

@@ -21,7 +21,6 @@
     {% if site.highlighter %} <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type='text/css'> {% endif %}
     <link rel="stylesheet" href="{{ site.url }}/css/main.css" type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
 </head>
 
@@ -33,7 +32,7 @@
         </div>
 
         <div class="module description color-2">
-            {{ site.description }}
+            <h4>{{ site.description }}</h4>
         </div>
 
         <nav class="module main-menu color-4">
@@ -45,8 +44,15 @@
         <div class="module links color-3">
             <a href="https://github.com/{{ site.github }}" title="Profile in Github" target="_blank">github</a>
             <a href="https://twitter.com/{{ site.twitter }}" title="Profile in Twitter" target="_blank">twitter</a>
-            <a href="https://plus.google.com/{{ site.google }}" title="Profile in Google+" target="_blank">Google+</a>
-            <a href="{{ site.url }}/feed.xml" title="Suscribe to RSS" target="_blank">rss</a>
+            <a href="https://www.instagram.com/sporebandit" title="Profile in Instagram" target="_blank">instagram</a>
+        </div>
+
+        <!-- roster of blog entries here! -->
+        <div class="module title color-1">
+            <h1><a href="{{ site.url }}/">articles</a></h1>
+            {% for post in site.posts %}
+            <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endfor %}
         </div>
 
     </header>

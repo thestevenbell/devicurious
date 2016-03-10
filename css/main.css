@@ -25,12 +25,72 @@
 
 html, body {
     background: #d1d1d1;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
     margin: 0;
 }
 
+
+
+
+.top { text-align: right; }
+.inside { padding-left: 15px; }
+
+
+
+/*//############
+//TEXT
+//############*/
+
+h1{
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 3em;
+    white-space: normal;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: darkgrey;
+    font-size: 1.75em;
+}
+
+h3 {
+    font-family: JosefinSlab-Light;
+    font-size: 2em;
+    font-weight: 400;
+    color: #020202;
+    letter-spacing: 4.11px;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+h4{
+    font-family: JosefinSlab-Light;
+    font-size: 2em;
+    font-weight: 400;
+    color: #020202;
+    letter-spacing: 4.11px;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+h5 {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: darkgrey;
+    font-size: 1.5em;
+    line-height: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
 a {
+    font-family: 'Josefin Slab', serif;
+    color: black;
     text-decoration: none;
     -webkit-transition: color 0.25s ease-in, background 0.25s ease-in;
     -moz-transition: color 0.25s ease-in, background 0.25s ease-in;
@@ -38,11 +98,23 @@ a {
     transition: color 0.25s ease-in, background 0.25s ease-in;
 }
 
-p { line-height: 1.4; }
+a:hover {
+    color: darkgrey;
+}
 
-.top { text-align: right; }
-.inside { padding-left: 15px; }
+p {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 400;
+    font-size: 1.05em;
+    line-height: 1.4;
+}
 
+li {
+        font-family: 'Josefin Sans', serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4;
+ }
 
 /* ------------------------------------------------------------------------
 -  The navigation. Main menu and article links. -
@@ -80,7 +152,7 @@ article p a {
     }
 
 /* ------------------------------------------------------------------------
--  The header (or the left side part of the page). -
+-  The header (or the left side column of the page). -
 -------------------------------------------------------------------------*/
 
 .main-header {
@@ -92,6 +164,7 @@ article p a {
 }
 
     .main-header h1 {
+
         font-weight: 300;
         margin: 0;
     }
@@ -147,7 +220,7 @@ hr {
 
     .main-content .module {
         border-bottom: 2px solid #b1b1b1;
-        font-size: 0.8em;
+        font-size: 1em;
         margin-right: 1em;
     }
 

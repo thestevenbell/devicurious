@@ -1,5 +1,8 @@
-The MIT License (MIT)
+thestevenbell blog content Copyright (c) Steven Bell
 
+
+Jekyll Blog Template:
+The MIT License (MIT)
 Copyright (c) 2015 Dragomir V Yordanov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

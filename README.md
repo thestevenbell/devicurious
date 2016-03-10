@@ -1,3 +1,23 @@
+# thestevenbell.github.io
+Website, Projects and Portfolio for Steven Bell
+
+
+#### Developement:
+to compile and serve locally:  $ `bundle exec Jekyll serve`
+
+
+#### Directions for using this Jekyll based blog engine on GitHub Pages.
+
+- add blog posts by renaming the file to fit the naming convention:
+2016-02-20-static-site-template-with-jade-sass-gulp-bourbon-neat.md
+(yr-mo-day-name.md)
+
+- Add the file to the _posts directory
+
+
+
+
+
 This theme stared out being a fork from the [Block-log](https://github.com/anandubajith/block-log). It still keeps many similarities. Minimal-block is a minimalistic, responsive and friendly Jekyllrb theme. It has almost no javascript (except for disquss), static social share buttons, rss, paginator, clean and simple permalinks and RSS.
 
 
