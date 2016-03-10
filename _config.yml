@@ -8,7 +8,7 @@
 # General Site Settings
 name: devicurious
 description: "MEAN, JavaScript, Node, Angular, Rails, IoT, Arduino, Raspberry Pi."
-url: "" # the base hostname & protocol for your site, add actual host URL when deployed
+url: "thestevenbell.github.io/devicurious" # the base hostname & protocol for your site, add actual host URL when deployed
 github.url: "thestevenbell.github.io/devicurious"
 
 # using default "kramdown" markdown
