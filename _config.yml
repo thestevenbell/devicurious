@@ -9,9 +9,9 @@
 name: devicurious
 description: "MEAN, JavaScript, Node, Angular, Rails, IoT, Arduino, Raspberry Pi."
 url: "" # the base hostname & protocol for your site, add actual host URL when deployed
+github.url: "thestevenbell.github.io/devicurious"
 
-# using default "kramdown markdown"
-# markdown: redcarpet
+# using default "kramdown" markdown
 kramdown:
   input: GFM
 
