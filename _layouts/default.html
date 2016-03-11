@@ -52,7 +52,7 @@
         <div class="module title color-1">
             <h1><a href="{{ site.url }}/">articles</a></h1>
             {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="/devicurious{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li><p>{{ post.date | date_to_string }}</p> » <a href="/devicurious{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
             {% endfor %}
         </div>
 
