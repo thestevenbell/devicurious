@@ -92,9 +92,9 @@ h6 {
     font-family: 'Josefin Sans', serif;
     font-weight: 400;
     font-size: 1em;
+    line-height: 1em;
     color: darkgrey;
     margin: 0 0 0 2%;
-    line-height: 1.4em;
 }
 
 a {
@@ -380,13 +380,6 @@ table {
 -  Make things responsive. -
 -------------------------------------------------------------------------*/
 
-articleListing
- @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
-}
-
-
 @media (max-width: 850px) {
 
     body {
@@ -406,8 +399,12 @@ articleListing
     padding-left: 2%;
     }
 
-   h6 {
+    h6 {
         font-size: .85em;
+    }
+
+    .main-content h6 {
+        clear: both;
     }
 
     .main-header,
@@ -416,9 +413,7 @@ articleListing
         width: 100%;
     }
 
-    .main-content .module {
 
-    }
 
     .main-header .module { margin-left: 0; }
     .main-content .module { margin-top: 0; }
