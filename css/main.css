@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-    font-family: JosefinSlab-Light;
+    font-family: 'Josefin Slab';
     font-size: 2em;
     font-weight: 400;
     color: #020202;
@@ -68,7 +68,7 @@ h3 {
 }
 
 h4{
-    font-family: JosefinSlab-Light;
+    font-family: 'Josefin Slab';
     font-size: 2em;
     font-weight: 400;
     color: #020202;
@@ -86,6 +86,13 @@ h5 {
     line-height: 16px;
     margin-bottom: 20px;
     margin-top: 30px;
+}
+
+h6 {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: darkgrey;
 }
 
 a {
@@ -115,6 +122,13 @@ li {
     font-size: 1em;
     line-height: 1.4;
  }
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h6 {
+        font-size: .7em;
+    }
+}
 
 /* ------------------------------------------------------------------------
 -  The navigation. Main menu and article links. -

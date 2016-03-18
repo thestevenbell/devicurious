@@ -7,7 +7,7 @@ layout: default
     {% for post in paginator.posts %}
         <article class="module color-3">
                 <h2><a href="/devicurious/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                <span class="category"><p>{{ post.categories | array_to_sentence_string }}</p></span>
+                <span class="category"><h6>{{ post.categories | array_to_sentence_string }}</h6></span>
                 <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
         </article>
     {% endfor %}
